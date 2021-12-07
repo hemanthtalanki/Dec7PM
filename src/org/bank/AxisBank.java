@@ -1,7 +1,7 @@
 package org.bank;
 
 public class AxisBank extends BankInfo {
-	private void deposit() {
+	public void deposit() {
 		System.out.println("custmer deposit amount is 1500");
 		
 	
@@ -13,9 +13,14 @@ public class AxisBank extends BankInfo {
 		a.deposit();
 		a.saving();
 		a.fixed();
+		a.add(10, 20);
+		}
+	public void add(int a,int b) {
+		int sum=a+b;
 		
+		System.out.println(sum);
 		
-		
+
 	}
 
 }
